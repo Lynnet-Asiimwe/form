@@ -20,12 +20,12 @@ class univ {
 	class Main extends univ {
 	  public static void main(String[] args) {
 	    age s = new age();
-	    s.setAge(2022);
+	    s.setAge(22);
 	    System.out.println("\nYear of Entry " + s.getAge());
 	    Scanner input = new Scanner(System.in);
 	    System.out.println("\nEnter FirstName: ");
-	    String myString = input.next();
-	    System.out.println("\nYour Name : " + myString);
+	    String xString = input.next();
+	    System.out.println("\nYour Name : " + xString);
 	    System.out.println("\nEnter last Name: ");
 	    String yString = input.next();
 	    System.out.println("\nYour last : " + yString);
